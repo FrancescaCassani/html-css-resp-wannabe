@@ -88,11 +88,12 @@ img {
   }
 }
 
-/* Minimo 1024px - Tablet*/
+/* Minimo 766px - Tablet*/
 /*CSS Media Query LEZIONI */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 766px) {
   #lezioni {
     padding: 20px;
+    background-color: #f9f9f9;
   }
   #lezioni h1 {
     margin-bottom: 40px;
@@ -119,9 +120,9 @@ img {
   }
 }
 
-/* Minimo 1024px - Tablet*/
+/* Minimo 768px - Tablet*/
 /*CSS Media Query STEPS  */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   #steps h1 {
     margin-bottom: 40px;
   }
@@ -142,9 +143,9 @@ img {
   }
 }
 
-/* Minimo 1024px - Tablet*/
+/* Minimo 768px - Tablet*/
 /*CSS Media Query WHY */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
   #why .row .first,
   #why .row .second,
   #why .row .third {
